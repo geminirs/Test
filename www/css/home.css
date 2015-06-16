@@ -1,0 +1,106 @@
+/* 
+	styles for homepage 
+	last updated: 2015-06-15;
+*/
+
+/* for temp usage: increse .bar height to 66px; */
+.bar { height: 66px; }
+.bar .title { height: 65px; line-height: 66px; }
+.has-header { top: 66px; }
+
+/* user center */
+#user-center {
+	height: 200px;  /*reduce from 215px, as .bar increse to 66px*/
+	text-align: center;
+	color: #999;
+	font-size: 13px;
+}
+	#user-name { color: #444; }
+
+	#user-center img { }
+	#user-center .wrapper { 
+		display: -webkit-box;
+		width: 60px; height: 60px; 
+		text-align: center;
+
+		-webkit-box-pack: center;
+		-webkit-box-align: center;
+		margin: 0 auto 0.5em;
+		
+		border: 1px dashed #7bbcb6; 
+	}
+		#user-name .wrapper { width: 105px; height: 105px; border-color: #ccc; }
+		#user-name img {
+			width: 86;
+			height: 86px;
+			
+		}
+		#user-group img {
+			width: 32px;
+			height: 32px;
+
+		}
+		#user-inbox img {
+			width: 32px;
+			height: 24px;
+		}
+	
+
+/* whether */
+#whether {
+	height: 80px;
+	font-size: 13px;
+	background: #F2F2F2; color: #444;
+}
+	.whether-icon {
+		font-size: 4em;
+		color: #4cb5bf;
+	}
+	h4.row { font-size: 16px; margin: 0; color: #444; }
+	
+
+
+/* features */
+.features { 
+	padding: 0; 
+}
+	.feature-tile { 
+		height: 130px;
+
+		border-color: #fff;
+		border-style: solid;
+		border-width: 0 1px 1px 0;
+		
+		padding-top: 90px; 
+		margin: 0px; 
+		
+		background-color: #4bc0b8; 	
+		background-repeat: no-repeat;
+		background-position: center 30%;
+		-webkit-background-size: 50px;
+		background-size: 50px;
+		
+		color: #fff;
+		text-align: center; 
+	}
+	.feature-tile.light { opacity: 0.8; }
+	#tile-menjin { background-image: url(../img/shield.png); }
+	#tile-parking { background-image: url(../img/parking.png); }
+	#tile-wuye { background-image: url(../img/umbrella.png); }
+	#tile-monitor { background-image: url(../img/monitor.png); }
+	#tile-mkt { background-image: url(../img/shopping-cart.png); }
+	#tile-hotel { background-image: url(../img/hotel.png); }
+
+
+/* qr code */
+#qr-code { 
+	height: 150px; 
+	background: url(../img/id.png) no-repeat 15px 8px;
+	-webkit-background-size: 40px 30px;
+	background-size: 40px 30px;
+	padding-left: 10px;
+}
+	#qr-code img {
+		height: 112px;
+		width: 112px;
+	}

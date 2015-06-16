@@ -1,0 +1,31 @@
+<!-- 
+need to use this js file for sample todos
+    <script src='js/sample.js'></script>
+-->
+    
+
+<body ng-app="ionicApp">
+    <style type="text/css">
+      .done {
+        text-decoration: line-through;
+        color: #999;
+      }
+    </style>
+
+    <ion-nav-bar class="bar-positive">
+      <ion-nav-back-button class="button-clear">
+        <i class="ion-arrow-left-c"></i> Back
+      </ion-nav-back-button>
+    </ion-nav-bar>
+    
+
+    <ion-tabs class="tabs-positive">
+      <ion-tab icon='ion-checkmark' ui-sref='todos'>
+        <ion-nav-view name='todos'></ion-nav-view>
+      </ion-tab>
+      <ion-tab icon='ion-help' ui-sref='help'>
+        <ion-nav-view name='help'></ion-nav-view>
+      </ion-tab>
+    </ion-tabs>
+
+  </body>
