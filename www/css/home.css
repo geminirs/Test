@@ -4,9 +4,16 @@
 */
 
 /* for temp usage: increse .bar height to 66px; */
-.bar { height: 66px; }
-.bar .title { height: 65px; line-height: 66px; }
-.has-header { top: 66px; }
+.bar { 
+	height: 86px !important;  /* navigation bar height needs to include status height of 20pt */
+}
+.bar .title { 
+	height: 65px !important; 
+	line-height: 66px !important; 
+}
+.has-header { 
+	top: 86px !important;  /* checked in simulator, top also needs to consider height of status bar */
+}
 
 /* user center */
 #user-center {
